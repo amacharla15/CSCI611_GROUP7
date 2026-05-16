@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Caches
+.cache/
+cache/
+**/cache/
+huggingface/
+transformers/
+datasets/
+
+# Raw large model/checkpoint artifacts
+**/checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Full archives
+*.tar.gz
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
